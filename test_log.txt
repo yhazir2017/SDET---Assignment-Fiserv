@@ -1,0 +1,11 @@
+INFO:root:Test 'main.SearchTest.test_bing_search' duration: 2.418536901473999 seconds
+INFO:root:Test 'main.SearchTest.test_google_search' duration: 5.114786863327026 seconds
+INFO:root:Test 'main.SearchTest.test_page_title' duration: 3.6554949283599854 seconds
+INFO:root:Test 'main.SearchTest.test_search_numbers_special_characters' duration: 102.4747200012207 seconds
+INFO:root:Test 'main.SearchTest.test_yahoo_search' duration: 87.05044889450073 seconds
+INFO:root:Test 'main.SearchTest.test_search_numbers_special_characters' duration: 92.40029525756836 seconds
+INFO:root:Test 'main.SearchTest.test_bing_search' duration: 3.3158559799194336 seconds
+INFO:root:Test 'main.SearchTest.test_google_search' duration: 2.4725520610809326 seconds
+INFO:root:Test 'main.SearchTest.test_page_title' duration: 4.684851169586182 seconds
+INFO:root:Test 'main.SearchTest.test_search_numbers_special_characters' duration: 94.42905402183533 seconds
+INFO:root:Test 'main.SearchTest.test_yahoo_search' duration: 88.35554528236389 seconds

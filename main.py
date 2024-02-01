@@ -50,24 +50,6 @@ class SearchTest(unittest.TestCase):
         # Wait for the results page to load
         self.driver.implicitly_wait(5)
 
-        # # Get the first result item and assert it as the expected result
-        # if search_engine == "https://www.bing.com" :
-        #     results = self.driver.find_element(By.XPATH,'//*[@id="b_results"]/li[3]/h2/a')
-        #     # self.assertGreater(len(results), 0, "No results found")
-        #     print("result",results.text,"===",results.accessible_name,"====",results.tag_name)
-        #     self.assertEqual(results.text, expected_result)
-
-
-        # elif search_engine == "https://www.google.com" :
-        # # Get the first result item and assert it as the expected result
-        #     results = self.driver.find_element(By.XPATH, '//h3')
-        #     self.assertEqual(results.text, expected_result)
-
-        # elif search_engine == "https://www.yahoo.com" :
-        # # Get the first result item and assert it as the expected result
-        #     results = self.driver.find_element(By.XPATH, '//*[@id="web"]/ol/li[2]/div/div[1]/h3/a')
-        #     self.assertEqual(results.accessible_name, expected_result)
-
         results = self.driver.find_element(By.XPATH, search_engine.xpath)
         return results
 
